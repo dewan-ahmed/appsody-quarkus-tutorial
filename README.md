@@ -30,7 +30,6 @@ sudo systemctl enable docker
 
 Get the latest version from [Appsody Installation Doc](https://appsody.dev/docs/getting-started/installation/) and update the following code/version, if required.
 ```
-cd
 wget https://github.com/appsody/appsody/releases/download/0.4.9/appsody_0.4.9_amd64.deb
 sudo apt install -f $PWD/appsody_0.4.9_amd64.deb
 ```
