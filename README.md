@@ -33,6 +33,17 @@ Get the latest version from [Appsody Installation Doc](https://appsody.dev/docs/
 wget https://github.com/appsody/appsody/releases/download/0.4.9/appsody_0.4.9_amd64.deb
 sudo apt install -f $PWD/appsody_0.4.9_amd64.deb
 ```
+Once the above steps are done, type in *appsody* and hit enter. If you see something like the following, your installation was successful:
+```
+The Appsody command-line tool (CLI) enables the rapid development of cloud native applications.
+
+Complete documentation is available at https://appsody.dev
+
+...
+...
+...
+```
+
 ### Creating your first Appsody project using Quarkus stack
 
 Quarkus is an experimental stack and things might be in flux. Please submit PR to [Appsody GitHub](https://github.com/appsody) if you find an issue.  
