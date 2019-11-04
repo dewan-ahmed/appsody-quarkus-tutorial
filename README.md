@@ -110,7 +110,7 @@ Then appsody downloads the required maven dependencies from maven central for yo
 .
 .
 ```
-**appsody run** would have your containerized application running; by default on port 8080 for quarkus. If you go to localhost:8080 or <yourServerIpAddress>:8080, you should see the following message:
+**appsody run** would have your containerized application running; by default on port 8080 for quarkus. If you go to localhost:8080 or yourServerIpAddress:8080, you should see the following message:
 > Congratulations, you have created a new Quarkus application.
 
 Out-of-the-box, Appsody gives you the following endpoints for various metrics on your running application
