@@ -33,7 +33,7 @@ Get the latest version from [Appsody Installation Doc](https://appsody.dev/docs/
 wget https://github.com/appsody/appsody/releases/download/0.4.9/appsody_0.4.9_amd64.deb
 sudo apt install -f $PWD/appsody_0.4.9_amd64.deb
 ```
-Once the above steps are done, type in *appsody* and hit enter. If you see something like the following, your installation was successful:
+Once the above steps are done, type in **appsody** and hit enter. If you see something like the following, your installation was successful:
 ```
 The Appsody command-line tool (CLI) enables the rapid development of cloud native applications.
 
