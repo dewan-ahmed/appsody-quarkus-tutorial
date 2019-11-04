@@ -3,7 +3,7 @@ A quick tutorial on how to build a cloud-native application using Appsody and Qu
 
 ## Taking care of the pre-requisites
 
-These steps are executed on linux(Ubuntu 18.04) but you can follow similar steps for Windows/Mac. If stuck, please reach out to author [Dewan Ahmed](dewan.ishtiaque@hotmail.com).
+These steps are executed on linux(Ubuntu 18.04) but you can follow similar steps for Windows/Mac. If stuck, please reach out to author [Dewan Ahmed].
 
 ### Installing Java
 
