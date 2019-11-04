@@ -56,3 +56,16 @@ Out-of-the-box, Appsody gives you the following endpoints for various metrics on
 - Readiness Endpoint: http://localhost:8080/ready
 - Metrics Endpoint: http://localhost:8080/metrics
 - Performance Dashboard: http://localhost:8080/appmetrics-dash
+
+
+
+
+### Troubleshooting
+
+Experiencing issues with *root* account? Try running as non-root user (with root access) instead.
+
+```
+adduser <username>
+usermod -aG sudo <username>
+su <username>
+```
