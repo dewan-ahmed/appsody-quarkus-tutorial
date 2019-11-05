@@ -113,13 +113,12 @@ Then appsody downloads the required maven dependencies from maven central for yo
 **appsody run** would have your containerized application running; by default on port 8080 for quarkus. If you go to localhost:8080 or yourServerIpAddress:8080, you should see the following message:
 > Congratulations, you have created a new Quarkus application.
 
-Out-of-the-box, Appsody gives you the following endpoints for various metrics on your running application
+Out-of-the-box, Appsody gives you the following REST endpoint for Quarkus stack:
 
-- Health Endpoint: http://localhost:8080/health
-- Liveness Endpoint: http://localhost:8080/live
-- Readiness Endpoint: http://localhost:8080/ready
-- Metrics Endpoint: http://localhost:8080/metrics
-- Performance Dashboard: http://localhost:8080/appmetrics-dash
+- Example showing for sample name "dewan"
+- Replace the IP address with your server's IP address OR localhost, if running locally
+
+http://0.0.0.0:8080/hello/greeting/dewan
 
 
 
@@ -133,3 +132,9 @@ adduser <username>
 usermod -aG sudo <username>
 su <username>
 ```
+
+### Reference
+
+- https://github.ibm.com/dnastaci/kabanero-quarkus-tutorial
+- https://github.com/appsody/stacks/tree/master/experimental/quarkus
+- https://appsody.dev/
